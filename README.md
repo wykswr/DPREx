@@ -45,10 +45,8 @@ chr3 187388896 187388910<br>
 chr4 1019055 1019075
 
 ## result file
-The result will be saved in a CSV file, with columns called repeats_id, probability_score and pathogenic. For a record like "
-chr1 12252260 12252264", its repeats_id is
-"chr1@12252260@12252264". The order of the records can be different from the input file, but
-repeats_id can be used to recovery the order.
-
-The pathogenic column denotes whether a mutation is pathogenic if it happens in the repeat interval, the
+* The result will be saved in a CSV file, with columns called repeats_id, probability_score and pathogenic. 
+* For a record like "chr1 12252260 12252264", its repeats_id is "chr1@12252260@12252264". 
+* The order of the records can be different from the input file, but it can be re-sorted with repeats_id.
+* The pathogenic column denotes whether a mutation is pathogenic if it happens in the repeat interval, the
 probability_score is positively related to that likelihood.
