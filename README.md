@@ -55,7 +55,7 @@ Here note that python3.6 is necessary for a successful installation. Then go on 
 * invoke the command line API:<br>
   `python main.py path-to-input/input.bed -o save_dir/`
 
-##Calculation procedure
+## Calculation procedure
 the coverage fraction of R_loop and DNA-repair factors binding region was calculted by comparing the location of submitted DNA fragments and the location of annotated regions of R_loop or DNA-repair factors binding region. The coverage fraction was defined as the bp length of  overlapped region, divided by the bp length of the submitted fragment.  
 
 the pairing probability and free energy were calculated beginning from the primary RNA sequence of the submitted DNA fragment, which was gained with the help of bedtools and RNA fold module of  Vienna RNA software. Related files were stored in the path of < dir_gen_files >/new_bed and  < dir_gen_files >/get_seq, which would be deleted after pipline calculation finished. Note here by “< dir_gen_files >” we mean the parameter you filled in after the option of –dir_gen_files in the file of fan_path2.json.
