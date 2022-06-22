@@ -18,7 +18,7 @@ mainly based on gene expression and regulation, instead of pattern of mutations.
 * prepare for the environment
     * make sure the python's version is not less than 3.8. 
     * use virtualenv to create a new environment (optional but recommended).
-    * type in: `install -r requirement.txt`, make sure you are in the same path of this project.
+    * type in: `pip install -r requirement.txt`, make sure you are in the same path of this project.
 
 * Installation of external software and placement of data-files
   * bedtools should be installed for sequence-relation options. Change the term of “bedtools” in fan_path2.json to the real installation path of bedtools. 
