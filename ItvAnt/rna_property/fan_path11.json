@@ -1,0 +1,5 @@
+{
+"bedtools":"/opt/miniconda3/bin/bedtools",
+"bash":"/bin/bash",
+"conda_python3":"/home/fancong/anaconda3/envs/GRASP-master/bin/python3"
+}

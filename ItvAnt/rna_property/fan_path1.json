@@ -1,0 +1,9 @@
+#import pathlib
+#import os
+#usr_home_dir=os.environ['HOME']
+{
+"bedtools":"/opt/miniconda3/bin/bedtools", #change this !!!
+"bash":"/bin/bash"
+#"conda_python3":Path(usr_home_dir) / 'anaconda3' / 'envs' / 'GRASP-master' / 'bin' / 'python3'
+"conda_python3":"/home/fancong/anaconda3/envs/GRASP-master/bin/python3"
+}

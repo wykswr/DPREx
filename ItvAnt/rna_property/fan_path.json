@@ -1,0 +1,9 @@
+{
+"FE_dir":"/bigdat1/user/fancong/RNA_charac_cal/RNA_free_energy/",
+"pair_dir":"/bigdat1/user/fancong/RNA_charac_cal/RNA_pair/",
+"bedtools":"/opt/miniconda3/bin/bedtools",
+"seq_for_bedtools":"/bigdat1/user/fancong/fan_database/hg19.fa",
+"RNAfold_run":"/bigdat1/user/fancong/software/RNAfold/bin/RNAfold",
+"test_py":"/home/fancong/softwares/GRASP-master/test.py",
+"mod_fn":"/home/fancong/softwares/GRASP-master/model/PARS_human/ph_25.model"
+}
