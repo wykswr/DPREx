@@ -1,7 +1,4 @@
-# DPREx
-DPREx is a machine-learning based tool to discriminate potential genes intervals to be pathogenic in which repeats mutation happens.
-
-## Characterizing the genomic regions with repeat expansions
+# Characterizing the genomic regions with repeat expansions
 The epigenetics data, including CTCF binding sites, DNase-seq and histone modification data, were obtained from the [ENCODE project](https://www.encodeproject.org/). Accession IDs are: ENCFF618DDO (CTCF ChIP-seq, narrowPeak); ENCFF021YPR (H3K27me3 ChIP-seq, bigWig); ENCFF388WCD (H3K36me3 ChIP-seq, bigWig); ENCFF481BLF (H3K4me1 ChIP-seq, bigWig); ENCFF780JKM (H3K3me3 ChIP-seq, bigWig); ENCFF411VJD (H3K9me3 ChIP-seq, bigWig).
 
 phastCons conservation scores were downloaded from [UCSC](https://hgdownload.cse.ucsc.edu/goldenpath/hg19/phastCons100way/hg19.100way.phastCons.bw).
@@ -13,6 +10,9 @@ Non-B DNA structure annotation (hg19): https://ncifrederick.cancer.gov/bids/ftp/
 The file named “hg19.rloop.filtered.mergedRegion.bed” for Rloop annotation is from the publication of Piroon Jenjaroenpun et.al., “R-loopDB: a database for R-loop forming sequences (RLFS) and R-loops” (PMID: 27899586)
 
 The DNA repair binding signal intensity files (the four .bw files) for [BER annotation](https://de.cyverse.org/data/ds/iplant/home/abacolla/bigwig?selectedOrder=asc&selectedOrderBy=name&selectedPage=0&selectedRowsPerPage=100)
+
+# DPREx
+DPREx is a machine-learning based tool to discriminate potential genes intervals to be pathogenic in which repeats mutation happens.
 
 ## How does the model work?
 First, we use comprehensive epigenetic data which include chromatin accessibility, histone modification marks, the binding strength of TFs, distance to alternative splicing, non-B DNA structure, Rloop structure coverage fraction, free energy of pre-RNA, mean pairing probability of pre-RNA, and the binding strength of base excision repair (BER) pathway DNA glycosylases  to annotate the intervals of input repeats.
