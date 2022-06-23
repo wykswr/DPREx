@@ -31,7 +31,7 @@ Then, a pre-trained XGBoost based model is loaded to predict the annotated table
 		* `cd <path for softwares>`
 		* `mkdir RNAfold_install`
 		* `mkdir RNAfold_data`
-		* `tar zxvf ViennaRNA-2.4.4.tar.gz1
+		* `tar zxvf ViennaRNA-2.4.4.tar.gz1`
 		* `cd ViennaRNA-2.4.4`
 		* `../configure –prefix=`<path for softwares>`/RNAfold_install –datadir=`<path for 	softwares>`/RNAfold_data`
 		* make
