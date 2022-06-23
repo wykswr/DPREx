@@ -34,8 +34,8 @@ Then, a pre-trained XGBoost based model is loaded to predict the annotated table
 		* `tar zxvf ViennaRNA-2.4.4.tar.gz1`
 		* `cd ViennaRNA-2.4.4`
 		* `../configure –prefix=`<path for softwares>`/RNAfold_install –datadir=`<path for 	softwares>`/RNAfold_data`
-		* make
-		* make install
+		* `make`
+		* `make install`
 	* After above steps, the executive script of RNAfold is in the path of `<path for softwares>`/RNAfold_install/bin/RNAfold. Change the “run_Rfold” in fan_path2.json to the real installation path of the executive scripts of RNAfold.
 
     * The TH-GRASS software was used to calculated the mean pairing probability of 100bp upstream of the start and downstream of the end of the pre-RNA fragment corresponding to the submitted DNA fragment. The code is in the [github]( https://github.com/yuedongyang/GRASP ). We suggest that you install TH-GRASS via conda. For example:<br>
